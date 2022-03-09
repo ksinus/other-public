@@ -10,7 +10,7 @@
       course_db:
         image: "postgres:latest"
         volumes:
-          # адрес в хосте:адрес в контейнере
+          # адрес в хосте : адрес в контейнере
           - ./data:/var/lib/postgresql/data
         ports:
           # порт в хосте : порт в контейнере
